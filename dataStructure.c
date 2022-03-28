@@ -41,6 +41,8 @@ typedef struct QueryDesc
     struct Instrumentation *totaltime; /* ExecutorRun函数所花费的时间;total time spent in ExecutorRun */
 } QueryDesc;
 
+
+
 /* ----------------
  *    EState information
  *    EState信息
